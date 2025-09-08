@@ -4,6 +4,8 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -42,7 +44,7 @@ hr{
 main{
     width: 80%;
     height: 100%;
-    margin: 5rem 0;
+    margin: 6rem auto;
 }
 
 footer{
@@ -55,4 +57,47 @@ footer{
     justify-content: center;
     align-items: center;
     bottom: 0;
+}
+
+ol{
+    list-style-type: decimal !important;
+    list-style-position: outside;
+    padding-left: 2rem;
+    margin: 1rem 0;
+    align-self: flex-start;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.recetas{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.receta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid #171717;
+}
+
+.header-receta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    text-transform: uppercase;
+    border-bottom: 2px solid #171717;
+}
+
+.imagen{
+    width: 25rem;
+    height: auto;
 }
