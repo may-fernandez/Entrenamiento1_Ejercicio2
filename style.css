@@ -123,5 +123,40 @@ li{
     font-size: 1.1rem;
 }
 
+.btns-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.btn-form{
+    width: 5rem;
+    height: 3rem;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #7c7c7c;
+    color: #171717;
+    cursor: pointer;
+}
+
+#btn-enviar{
+    background-color: #aec9de;
+}
+
+#btn-cancelar{
+    background-color: #ebacac;
+}
+
+#btn-enviar:hover{
+    background-color: #93c4e9;
+}
+
+#btn-cancelar:hover{
+    background-color: #e78b8b;
+}
+
 
 
